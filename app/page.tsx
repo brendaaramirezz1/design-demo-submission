@@ -34,13 +34,13 @@ export default async function Page({
         {/* Header */}
         <div className="flex flex-col gap-2 mb-8">
           <h1 className="text-2xl font-bold tracking-tight text-foreground text-balance">
-            Submit a demo for AI Agents Demo Night
+            Submit a demo for Design Demo Night
           </h1>
           <p className="text-[13px] text-muted-foreground leading-relaxed">
             {"RSVP in Luma anytime \u2014 you can submit a demo later. Selected demos will be confirmed a few days before the event."}
           </p>
           <p className="text-[13px] text-muted-foreground leading-relaxed mt-1">
-            {"We\u2019re looking for thoughtful demos of AI agents or agentic workflows \u2014 from early experiments to production systems. Keep it concise and only a few minutes, focused on what you built, how it works, and what you learned."}
+            {"We\u2019re looking for short demos that explore how AI is influencing your design practice \u2014 from early experiments to production systems. Keep it concise and only a few minutes, focused on what you built, how it works, and what you learned."}
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default async function Page({
         {/* Footer */}
         <footer className="mt-12 border-t border-border pt-6 pb-8">
           <p className="text-xs text-muted-foreground">
-            {"Questions? Contact the organizers."}
+            {"Questions? Contact brenda.ramirez@vercel.com."}
           </p>
         </footer>
       </main>
