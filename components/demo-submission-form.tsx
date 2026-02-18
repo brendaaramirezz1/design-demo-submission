@@ -124,17 +124,17 @@ export function DemoSubmissionForm() {
         />
       </fieldset>
 
-      {/* What does your agent do? */}
+      {/* What is your demo about? */}
       <fieldset className="flex flex-col gap-1.5">
         <Label htmlFor="description" className="text-label-13">
-          What does your agent do? <span className="text-muted-foreground">*</span>
+          What is your demo about? <span className="text-muted-foreground">*</span>
         </Label>
         <Textarea
           id="description"
           name="description"
           required
           maxLength={500}
-          placeholder="Describe your agent, what problem it solves, and how it works..."
+          placeholder="Describe your demo, what problem it solves, and how it works..."
           className="min-h-28 bg-[#0a0a0a]"
           onChange={(e) => setCharCount(e.target.value.length)}
         />

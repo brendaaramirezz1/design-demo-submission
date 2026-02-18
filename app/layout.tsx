@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'AI Agents Demo Night — Demo Submission',
-  description: 'Submit a demo for AI Agents Demo Night. Share your AI agents, agentic workflows, and early experiments.',
+  title: 'Designing in the Age of AI — Demo Submission',
+  description: 'Submit a demo for the Design Demo Night. We’re looking for demos that explore how AI is influencing your design practice.',
   generator: 'v0.app',
   icons: {
     icon: [
